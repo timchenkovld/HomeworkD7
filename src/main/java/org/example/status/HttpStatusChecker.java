@@ -8,7 +8,6 @@ import java.io.IOException;
 
 public class HttpStatusChecker {
     private OkHttpClient client;
-
     public HttpStatusChecker() {
         client = new OkHttpClient();
     }
